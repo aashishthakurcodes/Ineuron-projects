@@ -82,7 +82,13 @@ const c="this is a const variable"
         // c="by changing values" // it will also givd error bcz c is constant
 
 
+// Operations:-
+// Arithmetic operator
+// Comparison operator
+// Assignment Operator
 
+console.log("Addition",7+96);
+console.log("Comparison",67>96);
 
 
 
