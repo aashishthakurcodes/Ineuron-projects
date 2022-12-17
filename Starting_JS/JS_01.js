@@ -82,7 +82,7 @@ const c="this is a const variable"
         // c="by changing values" // it will also givd error bcz c is constant
 
 
-// Operations:-
+// 3. Operations:-
 // Arithmetic operator
 // Comparison operator
 // Assignment Operator
@@ -92,3 +92,66 @@ console.log("Comparison",67>96);
 
 
 
+
+// 4. Conditiona in JS
+// 1.ifelse
+// 2.Switch case
+// 3.Ternary Operator
+
+// 1.ifelse
+
+let user="visiter";
+if(user=="Admin"){
+    console.log('Welcome Admin Sir you have all access');
+}
+else if(user=="user"){
+    console.log("Hello new user. you can access only your profile");
+}
+else if(user=="visiter"){
+    console.log("Visiter can only visit the website you haven't any access");
+}else{
+    console.log("Something Went wrong try again");
+}
+
+
+//2.Switch Case:- we cant add condition like (even odd etc)
+let entrnum=3;
+switch (entrnum) {
+    case 1:
+        console.log("User enters 1");
+        break;
+    case 2:
+         console.log("User enters 2");
+            break;   
+     case 3:
+         console.log("User enters 3");
+                   break; 
+    default:
+        console.log("try again");
+        break;
+}
+
+//Ex-2
+
+let student="Aliya";
+switch (student) {
+    case "Aashish":
+        console.log("Hello Aashish, you got 83%");
+        break;
+    case "Arun":
+         console.log("Hello Arun,you got 78% ");
+            break;   
+     case "Aliya":
+         console.log("Hello Aliya cpngrats,you got 98% ");
+                   break; 
+    default:
+        console.log("No result found");
+        break;
+}
+
+//# ternary Opeartor / Ternary Condition
+
+// Condition?True:False
+
+let i=185252;
+(i%5==0)?console.log("Number is divided by 5"):console.log("Number isn't divided by 5");
