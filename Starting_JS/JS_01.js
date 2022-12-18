@@ -47,7 +47,7 @@ console.log(obj.lnmae);
 console.log(obj);
 
 
-// #Template Literals (Use backtics )
+// #Template Literals (Use backticks )
 console.log(`My name is ${obj.fname} ${obj.lnmae} and my number is ${obj.num}`);
 
 
@@ -94,7 +94,7 @@ console.log("Comparison",67>96);
 
 
 // 4. Conditiona in JS
-// 1.ifelse
+// 1.if else
 // 2.Switch case
 // 3.Ternary Operator
 
@@ -155,3 +155,56 @@ switch (student) {
 
 let i=185252;
 (i%5==0)?console.log("Number is divided by 5"):console.log("Number isn't divided by 5");
+
+// date 
+ let dt=new Date()
+ console.log(dt.toDateString());
+ console.log(dt.getHours());
+ console.log(dt.getDate());
+ console.log(dt.getMinutes());
+ console.log(dt.getDay()); //Sunday index is 0
+
+ //Math
+ let mt=1245118.9;
+ console.log(Math.round(mt));
+ console.log(Math.sqrt(mt));
+ console.log(Math.floor(mt)); //it give the lowest
+ console.log(Math.ceil(mt));// it give the highest
+ console.log(Math.pow(2,5));
+
+
+ console.log(Math.max(58,96,75,35,977,125,954));
+ console.log(Math.min(58,96,75,35,977,125,954));
+
+ let r=Math.random();
+ console.log(r);
+ console.log("Your OTP is:-",Math.round(r*10000));
+
+ //Loops:-
+//  1.while loop
+//  2.dowhile loop
+//  3.for Loop
+
+
+//while
+let ik=0;
+while(ik<=10){
+    console.log("The value is",ik);
+    ik++;
+}
+
+
+//dowhile
+let kd=6;
+do {
+    console.log("The value is:-",kd);
+    kd++;
+} while (kd<5);
+
+
+//for loop:-
+
+
+for(let u = 0; u <= 12; u++){
+console.log("The given value is:-" ,u);
+}
