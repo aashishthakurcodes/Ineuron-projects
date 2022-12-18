@@ -19,6 +19,8 @@ Contains all the projects and assignments
 
 [Article no.5](https://blogbyaashsish.hashnode.dev/flex-box-the-layout-changer)
 
+[Article no.6](https://blogbyaashsish.hashnode.dev/array-and-its-methods)
+
 
 ## HTML_&_CSS_projects
 
