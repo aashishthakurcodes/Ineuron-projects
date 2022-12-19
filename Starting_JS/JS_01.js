@@ -1,4 +1,6 @@
  
+// Sat-Sun Dec(10-11)
+
 //  Basics of any programming languages:-
 
 // 1.Values
@@ -208,3 +210,24 @@ do {
 for(let u = 0; u <= 12; u++){
 console.log("The given value is:-" ,u);
 }
+
+// function in js
+// 1.First method
+function sum(a,b)
+{
+    console.log(`The sum pof ${a} and ${b} is`,a+b);
+}
+sum(78.244,9658.25)
+
+//2. Second method
+let j=function(name,msg){
+return `Good morning ${name} ${msg}` 
+}
+console.log(j("Ankit","Let's go for the exercise"));
+
+
+//3.Third method:-
+//using arrow function
+let rj=(name,msg)=>`Good morning ${name} ${msg}`
+console.log(rj("Shaurya","How are you today"));
+
