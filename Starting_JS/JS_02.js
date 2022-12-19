@@ -83,5 +83,24 @@ let z=[45,56,"Aashu",89,78,45,56,45,45,56,89,95,45,7541]
 console.log(z.lastIndexOf(45));
 
 //15.isarray it return boolean value 
-let c=[,56,"Aashu",89,78,45,]
+let c=[56,"Aashu",89,78,45,]
 console.log(Array.isArray(c));
+
+
+//16.fill it fill the element with given static value.
+let b=[5,56,"Aashu",89,78,45,56]
+b.fill("Hello",2,4)
+console.log(b);
+
+//17.map :-This method doesn't change the existing array. it return a new array including our calculations/operation applied on it.
+
+let ary1=[78,2413,81,144,225]
+let ary2=ary1.map((n)=> Math.sqrt(n))
+console.log((ary2));
+
+//18. filter used to filter the data
+let n=[1000,2000,3000,4000,5000,6000]
+let m=n.filter((nk)=> nk>2000)
+console.log(m);
+
+
