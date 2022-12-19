@@ -42,4 +42,46 @@ console.log(t.concat(y,u));
 let o=[1,23,45,78,"Arun","Ramesh"]
 console.log(o.slice(1,5));
 
-//7.
+//7.splice This method can be used to add new items to an array. 
+let p=[12,23,45,56,78,89]
+p.splice(3,2,"Aashish") //2 here means skip two item and replace with "Aashish"
+console.log(p);
+
+//8.split convert a string in a comma seperated array
+let a="Thakur"
+let s=a.split('')
+console.log(s);
+
+//9.reverse
+let d=["Aashish","Arun","Gopal","Kishan"]
+d.reverse()
+console.log(d);
+
+//10.join it join string value to all array
+
+let f=[1,2,3,4,5,6,7,8]
+let g=f.join("*5 ")
+console.log(g);
+
+//11.sort This method sorts the array's elements alphabetically
+let h=["Aashish","shubham","Jitesh","sagar",56,5841.25,55.26]
+h.sort()
+console.log(h);
+
+//12.includes it return true or false value if the element is present or not
+
+let j=["Sameer",58,96,74,32]
+let k=j.includes(74);
+console.log(k);
+
+//13.index of= it return the first occurence of the value of the  array
+let l=[45,56,"Aashu",89,78,45,56,45,45]
+console.log(l.indexOf(45));
+
+//14. lastindexof  This method returns the last index of the first occurrence of a value in the array.
+let z=[45,56,"Aashu",89,78,45,56,45,45,56,89,95,45,7541]
+console.log(z.lastIndexOf(45));
+
+//15.isarray it return boolean value 
+let c=[,56,"Aashu",89,78,45,]
+console.log(Array.isArray(c));
