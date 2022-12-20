@@ -137,3 +137,26 @@ let ob={
     Aim:"Money in mind"
 }
 console.log(ob);//it will give key and values
+
+for(let cb in ob){
+    console.log(ob[cb]);// it will give us only values
+    console.log(cb);//it will give only keys
+}
+
+ 
+let obj={
+    car:"Mustang",
+    car2:"Fortuner",
+    car3:"Range Rover"
+}
+console.log(obj.car3);
+
+obj.car2="Sumo Gold" //updation the value
+
+console.log(obj.car2);// calling the particular value
+for(let x in obj)
+{
+    console.log(obj[x]);//it will give all the values
+}
+
+
