@@ -126,3 +126,14 @@ return df;
 let var1=[56,74,845,965,123,74]
 let var2=arr(var1)
 console.log(var2);
+
+//Object:-
+
+let ob={
+    fname:"Aashish",
+    lname:"Thakur",
+    Age:20,
+    Job_profile:"Web developer",
+    Aim:"Money in mind"
+}
+console.log(ob);//it will give key and values
