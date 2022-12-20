@@ -103,4 +103,26 @@ let n=[1000,2000,3000,4000,5000,6000]
 let m=n.filter((nk)=> nk>2000)
 console.log(m);
 
+// function and object
 
+function sum(arr){
+    let sum=0;
+    for(let i=0; i < arr.length; i++){
+    sum=sum +arr[i]}
+    return sum;
+}
+let dr=[56,89,78,74,856,12,89,7456]
+let rf=sum(dr)
+console.log(rf);
+
+function arr(ert){
+    console.log(ert);
+    let df=0;
+    for(let ff=0; ff<ert.length; ff++){
+    df=df+ert[ff]
+}
+return df;
+}
+let var1=[56,74,845,965,123,74]
+let var2=arr(var1)
+console.log(var2);
