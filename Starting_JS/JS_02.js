@@ -198,8 +198,43 @@ let details={
 }
 
  function greetings(){
-    console.log("Hlo everyone my name is "+details.fname);
+    console.log("Hlo everyone my name is "+ details.fname);
 }
 details.msg()
 
 
+let data={
+    fname:"Ramesh",
+    lnmae:"kumar",
+    Age:20,
+    Branch:[],
+    brnchdta:function (br) {this.Branch.push(br)},
+    getdata: function()
+    { return `${this.fname} has total number of ${this.Branch.length} courses`},
+
+}
+console.log(data);
+
+console.log(data.brnchdta("Javascript"));
+console.log(data.brnchdta("Javascript"));
+
+
+
+
+//Methods in object
+//A program of finding the no. of course purchased by a student
+
+// var obj2={
+//     Name:"Hitesh",
+//     Sirname:"Sharma",
+//     course:[],
+//     hobby:"Cycling",
+//     coursecount: function (coursenmae){
+//         this.course.push(coursenmae)
+
+//     },
+//     getcount: function (){
+//        return `${this.Name} has the total ${this.course.length} number of courses`
+//     }
+
+// }
