@@ -163,3 +163,43 @@ for(let x in obj)
 }
 
 
+//More about objects:-
+let person={
+    fname:"Rahul",
+    lnmae:"Kumar",
+    Age:26,
+    hobby:"Cricket"
+}
+person.behaviour="good" //Adding new property to the array
+console.log(person);
+
+delete person.behaviour; // Deleting a property of the object
+console.log(person);
+
+// Adding Action in objects
+
+let detail={
+    fname:"Shubham",
+    lnmae:"Mishra",
+    Age:20,
+    Greet:function(){
+        console.log("Hello "+ detail.fname + " "+detail.lnmae +" How are you");
+    }
+}
+detail.Greet() //1st method
+
+//2nd method when we declare function outside the object
+let details={
+    fname:"Anuj",
+    lnmae:"Kashyap",
+    Age:23,
+    Role:"Developer",
+    msg:greetings
+}
+
+ function greetings(){
+    console.log("Hlo everyone my name is "+details.fname);
+}
+details.msg()
+
+
