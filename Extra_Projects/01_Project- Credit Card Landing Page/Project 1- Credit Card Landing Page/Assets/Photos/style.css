@@ -15,15 +15,14 @@ ul{
     list-style: none;
     gap: 28px;
     color: #ffff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .butn{
     display: flex;
     align-items: center;
 }
-.pink{
-   
-}
+
 
 .ENG1{
     border: none;
@@ -52,3 +51,21 @@ select{
     color: #ffff ;
     padding: 5px 8px;
 }
+
+.main{
+    display: flex;
+
+}
+.left{
+    width: 30%;
+}
+.right{
+    width: 40%;
+}
+.right img{
+    width: 150%;
+    position: relative;
+    z-index: 1;
+}
+
+
