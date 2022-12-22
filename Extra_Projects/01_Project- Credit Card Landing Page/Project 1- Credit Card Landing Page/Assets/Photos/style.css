@@ -1,0 +1,54 @@
+*{
+    margin: 8px;
+    padding: 0px;
+}
+body{
+    background-color: #151515;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+ul{
+    display: flex;
+    list-style: none;
+    gap: 28px;
+    color: #ffff;
+}
+
+.butn{
+    display: flex;
+    align-items: center;
+}
+.pink{
+   
+}
+
+.ENG1{
+    border: none;
+    background: #151515;
+    color: #ffff ;
+    gap: 10px;
+    display: flex;
+    text-align: center;
+}
+.cus{
+    border: none;
+    background: #151515;
+    color: #ffff ;
+    margin-left: 22px;
+    display: flex;
+}
+.pinky{
+    color: #ffff;
+    margin-left: -25px;
+    margin-top: 10px;
+
+}
+select{
+    border: none;
+    background: #151515;
+    color: #ffff ;
+    padding: 5px 8px;
+}
