@@ -92,11 +92,13 @@ select{
 }
 .content{
     position: absolute;
+    margin-top: 45px;
 }
 h1{
     font-size: 65px;
     max-width: 750px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #ffff;
 }
 span{
     color: #f637ec;
@@ -104,7 +106,20 @@ span{
 p{
     font-size: 21px;
     max-width:520px ;
+    color:#C1BCC1;
+    font-family:  'Arial Narrow', Arial, sans-serif;
+    margin-top: 18px;
 }
 .get{
     display: flex;
+    margin-top: 70px;
+}
+h3{
+    margin-left: -24px;
+    color: aliceblue;
+    
+    font-size: 22px;
+}
+.pinkbuttn{
+    height: 29px;
 }
