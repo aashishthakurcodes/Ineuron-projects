@@ -68,4 +68,43 @@ select{
     z-index: 1;
 }
 
-
+/* Section1 */
+.bp{
+    width: 700px;
+}
+.main{
+    position: relative;
+    
+}
+.img1{
+    position: absolute;
+    right: 0;
+    z-index: -1;
+    right: 100px;
+    
+    
+}
+.img2{
+    position: absolute;
+    right: 0;
+    top: 50px;  
+    
+}
+.content{
+    position: absolute;
+}
+h1{
+    font-size: 65px;
+    max-width: 750px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+span{
+    color: #f637ec;
+}
+p{
+    font-size: 21px;
+    max-width:520px ;
+}
+.get{
+    display: flex;
+}
