@@ -1,0 +1,109 @@
+.navbar {
+  display: flex;
+  justify-content: space-around;
+}
+ul {
+  display: flex;
+  list-style: none;
+  gap: 25px;
+  color: #ffff;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.btn {
+  display: flex;
+  align-items: center;
+}
+.pinky {
+  position: relative;
+  left: 15px;
+  z-index: -1;
+}
+body {
+  background: #151515;
+}
+.cus {
+  color: #ffff;
+}
+select {
+  border: none;
+  background: #151515;
+  color: #ffff;
+  padding: 5px 8px;
+}
+
+/* Another Section */
+.bg{
+    width: 700px;
+    position: absolute;
+    right: 0;
+    display: block;
+
+}
+.img1{
+    position: relative;
+    right: 80px;
+    bottom: 50px;
+}
+.top{
+    display: block;
+}
+.section2{
+    margin-top: 550px;
+}
+
+.content {
+position: absolute;
+margin-top: 21px;
+}
+h1 {
+font-size: 65px;
+max-width: 750px;
+font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+color: #ffff;
+}
+span {
+color: #f637ec;
+}
+p {
+font-size: 21px;
+max-width: 500px;
+color: #c1bcc1;
+font-family: "Arial Narrow", Arial, sans-serif;
+margin-top: 18px;
+}
+.get {
+display: flex;
+align-items: center;
+
+}
+h3 {
+margin-left: -24px;
+color: aliceblue;
+
+font-size: 22px;
+}
+.pinkbuttn {
+height: 29px;
+position: relative;
+left: 15px;
+  z-index: -1;
+}
+.four {
+display: flex;
+align-items: center;
+margin-top: 30px;
+gap: 20px;
+}
+.lc,
+.rc {
+display: flex;
+align-items: center;
+}
+.four p {
+max-width: 70px;
+font-size: 19px;
+}
+.top{
+margin: 15px;
+
+}
