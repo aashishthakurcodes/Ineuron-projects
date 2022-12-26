@@ -1,3 +1,5 @@
+
+/* <!-- Section 1 --> */
 .navbar {
   display: flex;
   justify-content: space-around;
@@ -30,8 +32,9 @@ select {
   color: #ffff;
   padding: 5px 8px;
 }
+/* <!-- Section 1 End --> */
 
-/* Another Section */
+/* <!-- Section 2  --> */
 .bg{
     width: 700px;
     position: absolute;
@@ -47,8 +50,6 @@ select {
 .top{
     display: block;
 }
-
-
 .content {
 position: absolute;
 margin-top: 21px;
@@ -103,10 +104,10 @@ font-size: 19px;
 }
 .top{
 margin: 15px;
-
 }
+/* <!-- Section 2 End --> */
 
-/* Section 2 */
+/* <!-- Section 3 start --> */
 .Ansection{
   margin-top:600px;
   background: #292929;
@@ -125,3 +126,4 @@ margin: 15px;
 .logoimg {
   width: 100px;
 }
+/* <!-- Section 3 End --> */
