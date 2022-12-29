@@ -127,3 +127,21 @@ margin: 15px;
   width: 100px;
 }
 /* <!-- Section 3 End --> */
+
+/* Section 4 start */
+.sec_4main{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 1200px;
+  margin: auto;
+}
+.left_4 h1{
+  font-family: Arial;
+  margin-left: 30px;
+  
+}
+.right_4{
+  max-width: 430px;
+}
+
