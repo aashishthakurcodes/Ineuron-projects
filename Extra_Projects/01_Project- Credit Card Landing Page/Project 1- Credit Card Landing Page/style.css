@@ -192,3 +192,37 @@ margin: 15px;
   align-items: center;
 }
 /* Section 5 End */
+
+/* Section 6 start */
+.text_6{
+  display: flex;
+  flex-direction: column;
+ justify-content: center;
+ align-items: center;
+  text-align: center;
+  
+}
+.text_6 h1{ 
+  font-size: 55px;
+  max-width: 650px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+  margin-top: 170px;
+}
+.text_6 p{
+  font-size: 22px;
+  max-width: 650px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+}
+.section_6{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 950px;
+  background: #FCEFFB;
+  margin-top: 80px;
+  
+  
+}
