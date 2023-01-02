@@ -245,3 +245,28 @@ margin: 15px;
   margin: auto;
 }
 
+/* section 7 end here */
+
+/* Section 8 start */
+.sec_8_container{
+  width: 330px;
+  height: 190px;
+  background:#494949;
+  padding: 20px;
+}
+.sec_8_container,p ,h4{
+  color: #f0ebe7;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+}
+.Section_8{
+  margin-top: 80px;
+display: grid;
+grid-template-columns:350px 350px ;
+
+row-gap: 60px;
+column-gap: 80px;
+justify-content: center;
+align-items: center;
+}
+
