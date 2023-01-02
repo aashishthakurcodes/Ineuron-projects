@@ -97,10 +97,12 @@ gap: 20px;
 .rc {
 display: flex;
 align-items: center;
+gap: 15px;
 }
 .four p {
-max-width: 70px;
+max-width: 82px;
 font-size: 19px;
+
 }
 .top{
 margin: 15px;
