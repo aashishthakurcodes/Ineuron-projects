@@ -271,4 +271,29 @@ column-gap: 80px;
 justify-content: center;
 align-items: center;
 }
+/* Section 8 end */
+
+/* Section 9 start */
+.section_9{
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+  height: 200px;
+  align-items: center;
+}
+.sec_9_1{
+  width: 110px;
+  height: 24px;
+  background: #F637EC;
+  border-radius: 40px;
+box-shadow: 1px 1px 18px 12px #371A35;
+  
+}
+.sec_9_2{
+  height: 28px;
+  width: 28px;
+  background: #464446;
+  border-radius: 50%;
+}
+/* section 9 end here */
 
