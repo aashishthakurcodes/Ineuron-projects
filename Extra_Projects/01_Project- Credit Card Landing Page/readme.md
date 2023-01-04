@@ -1,5 +1,5 @@
 # Replicate the Following Output
 
-`Assests are Provided!`
+`HTML and CSS projects !`
 
-![Project 1](./Credit%20card%20landing%20page.png)
+[Project 1](https://htmlcssproject001.netlify.app/)
