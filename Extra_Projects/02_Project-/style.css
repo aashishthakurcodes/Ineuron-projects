@@ -1,0 +1,30 @@
+body{
+    background: #111010;
+}
+
+
+/* section 1 */
+
+.Sec_01{
+    margin: auto;
+    max-width: 1200px;
+}
+.sec_1_main{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.sec_1_main ul{
+display: flex;
+gap: 20px;
+list-style-type: none;
+color: #ffff;
+}
+.sec_1_btn{
+    border-radius: 20px;
+    padding: 8px 20px;
+    background: #0C8BFD;
+    color: #ffff;
+  font-size: medium;
+  border: none;
+}
