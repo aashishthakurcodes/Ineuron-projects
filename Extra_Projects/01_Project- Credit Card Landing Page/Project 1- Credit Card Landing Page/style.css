@@ -428,7 +428,17 @@ h4 {
 }
 /* section 10 end */
 .sec_11_main{
+  height: 180px;
+  align-items: center;
   display: flex;
   justify-content: flex-start;
+  gap:250px;
+}
+.Section_11{
+  margin: auto;
+  max-width: 1260px;
+}
+.Section_11 li{
+  font-size: 20px;
 }
 
