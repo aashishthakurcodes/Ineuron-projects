@@ -73,5 +73,18 @@ margin-top: 50px;
   margin-top: 50px;
 }
 
+/* Section 2 end */
+
+/* Section 3 start */
+.sec_3_main{
+  margin-top: 50px;
+  display: flex;
+  justify-content:space-around ;
+  height: 100px;
+  align-items: center;
+  background: #1D1C1C;
+  /* gap: 40px; */
+}
+
 
 
