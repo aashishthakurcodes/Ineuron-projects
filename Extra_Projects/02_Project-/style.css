@@ -315,11 +315,8 @@ color: #7C7B7B;}
 .sec_07_01{
   width: 250px;
   height: 450px;
- border: 3px solid gray;
-  /* display: flex;
-  flex-direction: column; */
   padding: 5px 10px;
-  border-radius: 10px; 
+  border-radius: 25px; 
   background: #ffff; 
   color: #111010;
 }
@@ -350,8 +347,8 @@ color: #7C7B7B;}
 }
 .sec_07{
   display: flex;
-  justify-content: space-evenly;
- 
+  justify-content: center;
+  gap: 30px;
 }
 .sec2{
 background: #0C8BFD;
@@ -368,6 +365,7 @@ color: aliceblue;
   margin: 8px 0px;
   color: #080909;
 }
+
 .sec_07_img{
     margin: 10px 0px;
     display: flex;
