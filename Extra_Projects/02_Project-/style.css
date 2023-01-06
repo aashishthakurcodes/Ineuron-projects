@@ -15,6 +15,7 @@ body {
 }
 .sec_1_main {
   display: flex;
+  height: 100px;
   justify-content: space-around;
   align-items: center;
 }
@@ -23,6 +24,7 @@ body {
   gap: 20px;
   list-style-type: none;
   color: #ffff;
+  font-family: Arial, Helvetica, sans-serif;
 }
 .sec_1_btn {
   border-radius: 20px;
@@ -496,12 +498,17 @@ Section 8 start */
  
 }
 /* section 10 end */
+
+/* section 11 start */
 .sec_11_main{
   display: flex;
   height: 200px;
   justify-content: space-evenly;
   color: #ffff;
-  margin-top: 80px;
+ align-items: center;
+  max-width: 1200px;
+  margin: auto
+
   ;
 }
 .sec_11_box1{
@@ -509,4 +516,13 @@ Section 8 start */
   flex-direction: column;
   gap: 10px;
   font-family: Arial, Helvetica, sans-serif;
+}
+
+/* section 11 end */
+
+/* footer section */
+footer{
+  margin: 10px 120px;
+  max-width: 1200px;
+  margin: auto;
 }
