@@ -362,14 +362,22 @@ p {
 /* 
 Section 8 start */
 
+.sec_8_both{
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
 .sec_8_01{
   margin-top: 30px;
-  height: 500px;
+  height: 600px;
   background: #ffff;
 }
 
 
 .sec_8_02{
+  max-width: 1200px;
+  margin: auto;
   display: flex;
   justify-content: space-around;
   height: 250px;
@@ -386,4 +394,37 @@ Section 8 start */
   font-family: Arial, Helvetica, sans-serif;
   color: #7c7b7b;
 }
+.sec_8_img{
+  width: 20px;
+  
+}
+
+.sec_08_left{
+  padding: 5px 20px;
+  width: 460px;
+  height:270px;
+  border-radius: 20px;
+  background: #000;
+  color: #ffff;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.sec_08_left p{
+  color: #ffff;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 15px 0px;
+  font-size: 22px;
+}
+.sec_08_left h3{
+  margin: 10px 0px;
+}
+
+.right_08{
+  background: #ffff;
+  border: 2px solid gray;
+  color: #000;
+}
+.right_08 p{
+  color: #000;
+}
+
 
