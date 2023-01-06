@@ -358,3 +358,32 @@ p {
 }
 
 /* Section 7 end */
+
+/* 
+Section 8 start */
+
+.sec_8_01{
+  margin-top: 30px;
+  height: 500px;
+  background: #ffff;
+}
+
+
+.sec_8_02{
+  display: flex;
+  justify-content: space-around;
+  height: 250px;
+  align-items: center;
+}
+.sec_8_02 h1{
+  font-size: 50px;
+  max-width: 450px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 400;
+}
+.sec_8_02 p{
+  max-width: 400px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #7c7b7b;
+}
+
