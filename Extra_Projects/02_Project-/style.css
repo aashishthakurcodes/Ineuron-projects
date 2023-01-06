@@ -293,3 +293,18 @@ color: #7C7B7B;}
   margin-bottom: 30px;
  
 }
+/* section 5 End */
+
+/* Section 6 Start */
+.sec_6_main{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ height: 280px;
+}
+.sec_6_main h1{
+  font-size: 45px;
+  max-width: 700px;
+  text-align: center;
+  color: #ffff;
+}
