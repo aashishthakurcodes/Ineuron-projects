@@ -429,5 +429,23 @@ Section 8 start */
 /* Section 8 end */
 
 /* Section 9 Start */
+.sec_09_main{
+  display: flex;
+  justify-content: center;
+  background: #ffff;
+  height: 60px;
+}
 
+.sec_09_1{
+  width: 140px;
+  height: 10px;
+  background: #2296fc;
+  border-radius: 10px;
+}
+.sec_09_2{
+  width: 940px;
+  height: 10px;
+  background:#969494;
+  border-radius: 10px;
+}
 
