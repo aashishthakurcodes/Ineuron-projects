@@ -14,9 +14,4 @@ ul{
     gap: 40px;
     list-style: none;
 }
-.sec_01_bg{
-height: 109vh;
-z-index: -1;
-position:relative;
-width: 100%;
-}
+
