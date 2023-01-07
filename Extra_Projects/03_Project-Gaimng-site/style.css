@@ -1,0 +1,22 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.sec_01_main{
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}  
+ul{
+    display: flex;
+    gap: 40px;
+    list-style: none;
+}
+.sec_01_bg{
+height: 109vh;
+z-index: -1;
+position:relative;
+width: 100%;
+}
