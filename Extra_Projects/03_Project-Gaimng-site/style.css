@@ -42,5 +42,10 @@ main{
   max-width: 430px;
   font-family: Arial, Helvetica, sans-serif;
   line-height: 60px;
-
+}
+.sec_01_left p{
+  color: #6f6768;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  max-width: 440px;
 }
