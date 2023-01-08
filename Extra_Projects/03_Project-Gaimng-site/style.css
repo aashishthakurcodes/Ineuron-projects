@@ -49,3 +49,15 @@ main{
   font-size: 16px;
   max-width: 440px;
 }
+.sec_btn1{
+  padding: 10px 20px;
+  background: #F4694C;
+  color: #ffff;
+  border: none;
+}
+.sec_btn2{
+  padding: 10px 20px;
+  background: transparent;
+  color: #ffff;
+  border: 1px solid #ffff;
+}
