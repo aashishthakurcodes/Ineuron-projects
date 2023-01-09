@@ -23,7 +23,9 @@ main{
   background-repeat: no-repeat;
    background-size:cover;
    position: relative;
-   height: 109vh;
+   height: 100vh;
+  margin: auto;
+  max-width: 1300px;
 }
 .sec_01_btn2{
   background: #F4694C;
@@ -43,11 +45,13 @@ main{
   font-family: Arial, Helvetica, sans-serif;
   line-height: 60px;
 }
+
 .sec_01_left p{
   color: #6f6768;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 16px;
   max-width: 440px;
+  margin:30px 0px;
 }
 .sec_btn1{
   padding: 10px 20px;
@@ -60,4 +64,43 @@ main{
   background: transparent;
   color: #ffff;
   border: 1px solid #ffff;
+}
+
+.img1{
+  margin-left: 70px;
+  width: 70px;
+  padding: 20px 0px;
+}
+
+.sec_01_right p{
+  /* display: flex; */
+  color: #ffff;
+  max-width: 220px;
+  font-size: 25px;
+  margin-top: 65px;
+}
+.subconatainer{
+  display: flex;
+  height: 500px;
+  justify-content: space-around;
+  align-items: center;
+  margin: auto;
+  max-width: 1200px;
+}
+.sec_01_right{
+  margin-top: 40px;
+}
+.img2{
+  padding: 0px 10px;
+}
+
+.img2_para{
+  display: flex;
+}
+.imgthird{
+display: flex;
+justify-content: end;
+}
+.img3{
+  width: 50px;
 }
