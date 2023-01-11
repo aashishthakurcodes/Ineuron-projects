@@ -162,30 +162,42 @@ Section 2 end */
 /* Section 3 start */
 .sec_03_main{
   height: 550px ;
-  border: 3px solid red;
   display: flex;
   justify-content: center;
   align-items: center;
-}
-.sec_3_right{
-  border:2px solid red;
+  margin: auto;
+  max-width: 1200px;
+  gap: 60px;
 }
 .sec_3_right h1{
   font-size: 42px;
   font-family: "Poppins";
   max-width: 500px;
-  border:2px solid red;
   font-weight: bold;
+  line-height: 55px;
 }
 .sec_3_right p{
   color: #6f6768;
   font-family: "Poppins";
   max-width: 520px;
-  line-height: 25px;
+  line-height: 28px;
+  margin: 40px 0px;
+  font-size: 18px;
 }
 .sec_3_btn{
   margin-top: 20px;
 }
 .sec_3_button{
-  padding: 10px 15px;
+  padding: 15px 28px;
+  background: #F4694C;
+  color: #ffff;
+  font-size: 18px;
+  border: none;
+}
+.sec_3_button2{
+  padding: 15px 28px;
+  background: #ffff;
+  color: #F9AFA0;
+  border: 2px solid #F9AFA0  ;
+  font-size: 18px;
 }
