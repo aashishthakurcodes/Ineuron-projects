@@ -1,106 +1,91 @@
-*{
-    margin: 0px;
-    padding: 0px;
-}
-.sec_01_main{
-    height: 100px;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    position: relative
+    /* .container{
+    height: 500px;
+    width: 700px;
+    background-image: url("assets/Photos/image\ 2.png");
+    border: 3px solid red;
+    background-repeat: no-repeat;
+    background-size: 50% 45%;
+    background-position: -80px 0px;
     
-}  
-ul{
-    display: flex;
-    gap: 40px;
-    list-style: none;
-    color: #ffff;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
-}
-main{
-  background: url(./assets/Photos/futuristic-bg.png);
-  background-repeat: no-repeat;
-   background-size:cover;
-   position: relative;
-   height: 100vh;
-  margin: auto;
-  max-width: 1300px;
-}
-.sec_01_btn2{
-  background: #F4694C;
-  padding: 11px 22px;
-  color: #ffff;
-  font-size: 18px;
-}
-.sec_01_btn1{
-  background: transparent;
-  color: #ffff;
-  font-size: 18px;
-}
-.sec_01_left h1{
-  color: #ffff;
-  font-size: 40px;
-  max-width: 430px;
-  font-family: Arial, Helvetica, sans-serif;
-  line-height: 60px;
-}
-
-.sec_01_left p{
-  color: #6f6768;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 16px;
-  max-width: 440px;
-  margin:30px 0px;
-}
-.sec_btn1{
-  padding: 10px 20px;
-  background: #F4694C;
-  color: #ffff;
-  border: none;
-}
-.sec_btn2{
-  padding: 10px 20px;
-  background: transparent;
-  color: #ffff;
-  border: 1px solid #ffff;
-}
-
-.img1{
-  margin-left: 70px;
-  width: 70px;
-  padding: 20px 0px;
-}
-
-.sec_01_right p{
-  /* display: flex; */
-  color: #ffff;
-  max-width: 220px;
-  font-size: 25px;
-  margin-top: 65px;
-}
-.subconatainer{
+  }
+  .inner{
   display: flex;
-  height: 500px;
-  justify-content: space-around;
   align-items: center;
-  margin: auto;
-  max-width: 1200px;
-}
-.sec_01_right{
-  margin-top: 40px;
-}
-.img2{
-  padding: 0px 10px;
-}
+  justify-content: space-around;
+    border: 2px solid blue;
+    backdrop-filter: blur(10px);
+    height: 80px;
+    max-width: 220px;
+    line-height: 2px;
+    margin-top: 140px;
+  }
+  .content{
+    line-height: 2px;
+  }
+  .rightbtn{
+    margin-top: 2px;
+    padding: 8px 8px;
+    background: #F4694C;
+    color: #ffff;
+    border: none;
+  
+  }
+  .content h4{
+    color: #ffff;
+    font-family: "Poppins";
+    font-weight: 100;
+  }
+  .content p {
+    color: rgb(150, 146, 146);
+    font-family: "Poppins";
+  } */
 
-.img2_para{
-  display: flex;
-}
-.imgthird{
-display: flex;
-justify-content: end;
-}
-.img3{
-  width: 50px;
-}
+
+  <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital@1&family=Gemunu+Libre:wght@200;300;400&family=Oswald:wght@300&family=Poppins:wght@200&family=Silkscreen&family=Titillium+Web:wght@300&display=swap" rel="stylesheet">
+  <style>
+   .cont1{
+    border: 3px solid red;
+    height: 500px;
+   }
+   .bgimg{
+    background-image: url("assets/Photos/image\ 2.png");
+    background-repeat: no-repeat;
+    background-size: 50% 45%;
+    background-position: -80px 0px;
+    height: 500px;
+    width: 700px;
+   }
+  </style>
+</head>
+<body>
+ <div class="conatiner">
+  <div class="cont1">
+    <div class="bgimg">
+     
+    </div>
+  </div>
+ </div>
+</body>
+</html>
+
+
+
+<div class="content">
+ <h4>The Soldiers War</h4>
+ <p>Actions</p>
+ <img src="./assets/Icons/Star 1.svg" alt="">
+ <img src="./assets/Icons/Star 1.svg" alt="">
+ <img src="./assets/Icons/Star 1.svg" alt="">
+ <img src="./assets/Icons/Star 1.svg" alt="">
+ <img src="./assets/Icons/Star 1.svg" alt="">
+</div>
+ <div class="rifht">
+  <button class="rightbtn">Download</button>
+ </div>
