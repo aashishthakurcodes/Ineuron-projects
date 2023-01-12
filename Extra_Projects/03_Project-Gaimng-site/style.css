@@ -252,6 +252,8 @@ Section 2 end */
   gap: 20px;
   height: 420px;
   align-items: center;
+  margin: auto;
+  max-width: 1200px;
   
 }
 .right_5 h1{
