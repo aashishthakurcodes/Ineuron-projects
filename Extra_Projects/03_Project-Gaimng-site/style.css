@@ -201,3 +201,42 @@ Section 2 end */
   border: 2px solid #F9AFA0  ;
   font-size: 18px;
 }
+/* Section 3 end */
+
+/* Section 4 start */
+.sec_4_main{
+  display: flex;
+  justify-content: space-between;
+
+}
+.sec_4_left h1{
+  font-size: 35px;
+  max-width: 400px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 900;
+}
+
+.sec_4_right{
+  display: flex;
+  gap: 10px;
+}
+
+.left_4{
+  width: 60px;
+  height: 60px;
+  background: #FDE1DB;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.right_4{
+  width: 60px;
+  height: 60px;
+  background: #F4694C;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.right_4 img{
+  width: 30px;
+}
