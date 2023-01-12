@@ -244,3 +244,40 @@ Section 2 end */
 .right_4 img{
   width: 30px;
 }
+/* Section 4 end */
+
+/* Section 5 start */
+.sec_5_main{
+  display: flex;
+  gap: 20px;
+  height: 420px;
+  align-items: center;
+  
+}
+.right_5 h1{
+  font-size: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  max-width: 350px;
+}
+.right_5 h5{
+  margin-top: 20px;
+  font-size: 18px;
+  color: #f4694c;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.right_5 p{
+  padding: 30px 0px;
+  max-width: 350px;
+  font-size: 20px;
+  line-height: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #6f6768;
+}
+.btn_sec-5{
+  margin-top: 5px;
+  padding: 15px 32px;
+  background: #F4694C;
+  color: #ffff;
+  font-size: 20px;
+  border: none;
+}
