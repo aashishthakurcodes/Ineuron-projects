@@ -187,8 +187,6 @@ background: #F6F8FA;
     display: flex;
     flex-direction: column;
     gap: 30px;
-    
-    
 }
 .sec_04_right h1{
     font-size: 40px;
@@ -208,3 +206,15 @@ background: #F6F8FA;
     border: none;
 }
 
+/* Section 4 end */
+
+/* Section 5 start */
+
+.sec_05_main{
+    height: 600px;
+    border: 2px solid blue;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-around;
+}
