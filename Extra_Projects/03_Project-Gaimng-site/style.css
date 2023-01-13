@@ -18,6 +18,14 @@ ul{
   font-family:"Poppins";
   font-size: 20px;
 }
+li:hover{
+  cursor: pointer;
+  color: #f4694c;
+  font-weight: 7
+  00;
+  font-size: 18px;
+  text-decoration: underline;
+}
 main{
 background: url(./assets/Photos/futuristic-bg.png);
 background-repeat: no-repeat;
@@ -402,7 +410,7 @@ Section 2 end */
   max-width: 250px;
   font-family: "Poppins";
 }
-
+/* Section 8 completed */
 
 
 
