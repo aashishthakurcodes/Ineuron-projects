@@ -65,3 +65,18 @@ ul{
 
 /* Section 1 End */
 /* Section 2 start */
+.sec_02_main{
+    height: 90px;
+    border-radius: 20px;
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+    margin-top: -35px;
+    position: relative;
+    background: #ffff;
+}
+.sec_02_container{
+    display: flex;
+   
+   gap: 100px; 
+}
