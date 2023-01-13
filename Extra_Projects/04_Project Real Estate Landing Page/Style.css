@@ -4,9 +4,61 @@
 }
 .sec_01_container{
     
-    background-image: url(./Assets/Photos/mainBackground.png);
+    background:rgba(0, 0, 0, 0.4) url(./Assets/Photos/mainBackground.png);
+    background-blend-mode: darken;
     background-repeat: no-repeat;
     background-size:1400px 630px;
     position: relative;
  height: 109vh;
+}
+nav{
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* border: 2px solid red; */
+    /* gap: 140px; */
+}
+ul{
+    list-style: none;
+    display: flex;
+    gap: 60px;
+    color: #ffff;
+    font-family: "Manrope";
+}
+.line{
+    height: 3px ;
+    width: 100%;
+    background: rgb(118, 116, 116);
+    max-width: 1100px;
+    margin: auto;
+}
+.sc_01_text{
+    width: 1000px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    padding-left: 120px;
+}
+.sc_01_text h1{
+    font-size: 60px;
+    font-family: "Manrope";
+    color: #ffff;
+    max-width: 600px;
+}
+.sc_01_text p{
+    color: #7C8180;
+    font-size: 18px;
+    font-family: "Manrope";
+    max-width: 400px;
+}
+.sec_01_btn{
+    padding: 12px 22px;
+    background: #6663E9;
+    color: #ffff;
+    border-radius: 25px;
+    border: none;
+    font-size: 18px;
 }
