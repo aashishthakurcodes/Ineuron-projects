@@ -1,0 +1,12 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.sec_01_container{
+    
+    background-image: url(./Assets/Photos/mainBackground.png);
+    background-repeat: no-repeat;
+    background-size:1400px 630px;
+    position: relative;
+ height: 109vh;
+}
