@@ -409,9 +409,9 @@ Section 2 end */
   max-width: 400px;
 }
 .sec_07_content p {
-  font-size: 16px;
+  font-size: 17px;
   text-align: center;
-  color: #6f6768;
+  color: #888182;
   max-width: 420px;
   font-family: "Poppins";
 }
@@ -440,7 +440,7 @@ Section 2 end */
 .sec_8_contain li{
   list-style: none;
   font-family: "Poppins";
-  color: #6c6c6a;
+  color: #8f8f8c;
   line-height: 40px;
 }
 .sec_8_01{
