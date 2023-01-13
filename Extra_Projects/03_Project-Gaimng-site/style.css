@@ -375,10 +375,32 @@ Section 2 end */
 }
 /* Section 7 end */
 
-/* Section 7 start */
+/* Section 8 start */
 .sec_8_main{
-  height: 400px;
+  height: 350px;
+}
+.sec_8_contain{
+  display: flex;
+  margin-top: 100px;
+  justify-content: space-around;
+
   
+  
+}
+.sec_8_contain li{
+  list-style: none;
+  font-family: "Poppins";
+  color: #515150;
+  line-height: 40px;
+}
+.sec_8_01{
+  line-height: 40px;
+}
+.sec_8_01 p{
+  color: #6f6768;
+  font-size: 18px;
+  max-width: 250px;
+  font-family: "Poppins";
 }
 
 
