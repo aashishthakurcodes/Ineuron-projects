@@ -21,8 +21,7 @@ ul{
 li:hover{
   cursor: pointer;
   color: #f4694c;
-  font-weight: 7
-  00;
+  font-weight: 700;
   font-size: 18px;
   text-decoration: underline;
 }
@@ -42,11 +41,26 @@ padding: 11px 22px;
 color: #ffff;
 font-size: 18px;
 }
+.sec_01_btn2:hover{
+  background: #ffff;
+  color: #F4694C;
+  cursor: pointer;
+
+}
 .sec_01_btn1{
 background: transparent;
+padding: 11px 22px;
 color: #ffff;
 font-size: 18px;
 }
+.sec_01_btn1:hover{
+  
+  background: #ffff;
+  color: #F4694C;
+  cursor: pointer;
+}
+
+
 .sec_01_left h1{
 color: #ffff;
 font-size: 40px;
@@ -54,19 +68,33 @@ max-width: 430px;
 font-family:"Poppins";
 line-height: 60px;
 }
+.sec_01_left h1:hover{
+  font-size: 35px;
+  font-style: italic;
+
+}
 
 .sec_01_left p{
-color: #6f6768;
+color: #8f8b8c;
 font-family:"Poppins";
 font-size: 16px;
 max-width: 440px;
 margin:30px 0px;
 }
+.sec_01_left p:hover{
+  color: #ffff;
+}
+
 .sec_btn1{
 padding: 10px 20px;
 background: #F4694C;
 color: #ffff;
 border: none;
+}
+.sec_btn1:hover{
+  cursor: pointer;
+  background: #ffff;
+  color: #F4694C;
 }
 .sec_btn2{
 padding: 10px 20px;
@@ -74,11 +102,19 @@ background: transparent;
 color: #ffff;
 border: 1px solid #ffff;
 }
+.sec_btn2:hover{
+  cursor: pointer;
+  background: #ffff;
+  color: #F4694C;
+}
 
 .img1{
 margin-left: 70px;
 width: 70px;
 padding: 20px 0px;
+}
+.img1:hover{
+  cursor: progress;
 }
 
 .sec_01_right p{
