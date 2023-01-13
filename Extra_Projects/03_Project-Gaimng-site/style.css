@@ -333,5 +333,46 @@ Section 2 end */
 }
 /* section 6 End */
 
+/* section 7 start */
+.sec_07_main{
+  height: 400px;
+  background:rgba(0, 0, 0, 0.7) url(Assets/Photos/Rectangle\ 606.png);
+  background-blend-mode: darken;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.sec_07_content{
+   display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+}
+.sec_07_content h1{
+  font-size: 35px;
+  text-align: center;
+  color: #ffff;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  max-width: 400px;
+}
+.sec_07_content p {
+  font-size: 16px;
+  text-align: center;
+  color: #6f6768;
+  max-width: 420px;
+  font-family: "Poppins";
+}
+.btn_7{
+  padding: 10px 20px;
+  background: #F4694C;
+  color: #ffff;
+  font-family: "Poppins";
+  border: none;
+}
+
 
 
