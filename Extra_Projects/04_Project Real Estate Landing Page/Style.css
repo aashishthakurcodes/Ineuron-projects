@@ -161,7 +161,6 @@ background: #F6F8FA;
 /* Section 4 start */
 .sec_04_main{
     height: 600px;
-    border: 2px solid blue;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -212,7 +211,6 @@ background: #F6F8FA;
 
 .sec_05_main{
     height: 600px;
-    border: 2px solid blue;
     display: flex;
     flex-direction: row-reverse;
     align-items: center;
