@@ -384,8 +384,8 @@ Section 2 end */
 /* section 7 start */
 .sec_07_main{
   height: 400px;
-  background:rgba(0, 0, 0, 0.7) url(Assets/Photos/Rectangle\ 606.png);
-  background-blend-mode: darken;
+  background:url(Assets/Photos/Rectangle\ 606.png);
+  /* background-blend-mode: darken; */
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;
