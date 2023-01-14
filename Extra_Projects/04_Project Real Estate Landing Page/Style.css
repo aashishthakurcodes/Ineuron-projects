@@ -216,3 +216,66 @@ background: #F6F8FA;
     align-items: center;
     justify-content: space-around;
 }
+/* Section 5 End */
+
+/* Section 6 start */
+.sec_06_main{
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.sec_6_container{
+    height: 320px;
+    width: 800px;
+    border-radius: 30px;
+    background: #6663E9;
+     display: flex;
+    flex-direction: column; 
+    justify-content: center; 
+     align-items:center; 
+     gap: 20px;
+    
+}
+.sec_6_container h1{
+    font-size: 40px;
+    font-family: "Manrope";
+    max-width: 500px;
+    text-align: center;
+    /* margin: auto; */
+    color: #ffff;
+}
+.sec_6_container p{
+    font-size: 18px;
+    text-align: center;
+    max-width: 550px;
+    color: #a5a9a8;
+}
+.sec_6_mail{
+    height: 25px;
+    width: 320px;
+    display: flex;
+    align-items: center;
+    background: #5654D1;
+    border-radius: 30px;
+    padding: 5px 15px;
+}
+.sec_6_mail h3{
+    font-family: "Manrope";
+    font-size: 16px;
+    color: #7C8180;
+}
+.sec_6_footer{
+    display: flex;
+    align-items: center;
+    gap: 20px;  
+}
+.sec-6_btn{
+    padding: 10px 20px;
+    background: #f7f7f9;
+    color: #5654D1;
+    font-size: 18px;
+    border-radius: 30px;
+    border: none;
+}
