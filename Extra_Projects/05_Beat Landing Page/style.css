@@ -1,0 +1,20 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.sec_01_main{
+    display: flex;
+    border: 2px solid red;
+    justify-content: center;
+    gap: 30px;
+
+}
+ul{
+    display: flex;
+    list-style: none;
+    gap: 50px;
+    margin-left: 150px;
+}
+.logo3{
+    height: 320px;
+}
