@@ -1,6 +1,7 @@
 *{
     margin: 0px;
     padding: 0px;
+    background:#121212
 }
 .sec_01_main{
     display: flex;
@@ -17,4 +18,36 @@ ul{
 }
 .logo3{
     height: 320px;
+}
+.sec_1_h1{
+    font-size: 45px;
+    font-family: "Poppins";
+    font-weight: 900;
+    color: #ffff;
+}
+.sec_1_h3{
+    font-family: "Poppins";
+    font-weight: 900;
+    color: #ffff;
+}
+.sec_1_p{
+    font-family: "Poppins";
+    max-width: 400px;
+    font-size: 16px;
+    color: #ffff;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.sec_1_btn{
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    background: #353536;
+    border: none;
+    color: #ffff;
+    border-radius: 5px;
 }
