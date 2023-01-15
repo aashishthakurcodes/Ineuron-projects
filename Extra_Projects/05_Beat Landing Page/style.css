@@ -5,19 +5,20 @@
 }
 .sec_01_main{
     display: flex;
-    border: 2px solid red;
     justify-content: center;
-    gap: 30px;
+    gap: 65px;
 
 }
 ul{
     display: flex;
     list-style: none;
-    gap: 50px;
-    margin-left: 150px;
+    gap: 60px;
+    color: #ffff;
+    align-items: center;
+
 }
 .logo3{
-    height: 320px;
+    height: 365px;
 }
 .sec_1_h1{
     font-size: 45px;
@@ -32,14 +33,14 @@ ul{
 }
 .sec_1_p{
     font-family: "Poppins";
-    max-width: 400px;
-    font-size: 16px;
+    max-width: 360px;
+    font-size: 14px;
     color: #ffff;
 }
 .content{
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 13px;
 }
 .sec_1_btn{
     padding: 10px 20px;
@@ -50,4 +51,25 @@ ul{
     border: none;
     color: #ffff;
     border-radius: 5px;
+}
+.sec_btn_on{
+    height: 80px;
+    width: 360px;
+    margin-left: 60px;
+}
+.shop_btn{
+    color: #ffff;
+    padding: 8px 42px;
+    border-radius: 5px;
+    background: #353536;
+
+}
+.logo1{
+    margin-top: 15px;
+}
+.sec_1_li{
+    display: flex;
+    justify-content: start;
+    height: 70px;
+    font-family: "Poppins";
 }
