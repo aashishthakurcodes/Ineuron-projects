@@ -96,8 +96,8 @@ ul{
    flex-direction: column;
   justify-content: center;
   align-items: center;
-    height: 300px;
-    border: 2px solid red;
+    height: 400px;
+    /* border: 2px solid red; */
 }
 .sec_3_container{
     display: flex;
@@ -108,7 +108,7 @@ span{
     color: #ffff;
     font-family: "Poppins";
     display: flex;
-    max-width: 100px;
+    max-width: 120px;
     font-size: 13px;
 }
 .sec_3_left img{
@@ -116,8 +116,12 @@ span{
     gap: 20px;
 }
 .sec_3_left{
-    border: 2px solid red;
+    /* border: 2px solid red; */
     display: flex;
     flex-direction: column;
     gap: 13px;
+    justify-content: space-around;
+}
+.sec_3_img1{
+    margin-left: 20px;
 }
