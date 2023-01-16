@@ -88,3 +88,36 @@ ul{
     justify-content: space-around;
     width: 80%;
 }
+/* Section 2 end */
+
+/* Section 3 start */
+.sec_3_main{
+   display: flex;
+   flex-direction: column;
+  justify-content: center;
+  align-items: center;
+    height: 300px;
+    border: 2px solid red;
+}
+.sec_3_container{
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}
+span{
+    color: #ffff;
+    font-family: "Poppins";
+    display: flex;
+    max-width: 100px;
+    font-size: 13px;
+}
+.sec_3_left img{
+    display: flex;
+    gap: 20px;
+}
+.sec_3_left{
+    border: 2px solid red;
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+}
