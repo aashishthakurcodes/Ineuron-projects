@@ -5,7 +5,7 @@
 }
 .sec_01_container{
     
-    background:rgba(0, 0, 0, 0.4) url(./Assets/Photos/mainBackground.png);
+    background:rgba(0, 0, 0, 0.2) url(./Assets/Photos/mainBackground.png);
     background-blend-mode: darken;
     background-repeat: no-repeat;
     background-size:1400px 630px;
@@ -27,10 +27,11 @@ ul{
     color: #ffff;
     font-family: "Manrope";
 }
+
 .line{
     height: 3px ;
     width: 100%;
-    background: rgb(118, 116, 116);
+    background: rgb(134, 132, 132);
     max-width: 1100px;
     margin: auto;
 }
@@ -50,7 +51,7 @@ ul{
     max-width: 600px;
 }
 .sc_01_text p{
-    color: #7C8180;
+    color: #959897;
     font-size: 18px;
     font-family: "Manrope";
     max-width: 400px;
@@ -104,7 +105,7 @@ ul{
     margin-left: 27px;
     position: relative;
     background: #ffff;
-    box-shadow: 5px 5px 50px 10px;
+    box-shadow: 2px 2px 70px 8px;
 }
 .img_3_content h4{
     font-size: 20px;
