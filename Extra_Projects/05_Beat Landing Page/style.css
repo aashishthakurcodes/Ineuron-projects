@@ -125,3 +125,38 @@ span{
 .sec_3_img1{
     margin-left: 20px;
 }
+/* Section 3 end */
+
+/* Section 4 start */
+.sec_4_main{
+    margin-top: 20px;
+    height: 500px;
+    border: 2px solid red;
+    /* display: flex; */
+    /* justify-content: center;
+    align-items: center; */
+}
+.sec_4_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+.sec_4_right p{
+    color: rgb(141, 137, 137);
+    font-family: "Poppins";
+    max-width: 200px;
+    font-size: 13px; 
+}
+.sec_4_case{
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sec_4_right button{
+    margin: 20px 0px;
+}
+.sec_4_btn{
+    padding: 5px 15px;
+}
