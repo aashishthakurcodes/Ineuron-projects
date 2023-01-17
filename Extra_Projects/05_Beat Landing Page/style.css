@@ -203,7 +203,6 @@ span{
     font-family: "Poppins";
 }
 .btn_5{
-    
     padding: 8px 18px;display: flex;
     justify-content: center;
     align-items: center;
@@ -214,4 +213,38 @@ span{
     border-radius: 5px;
     background: #000000;
 }
+ 
+/* Section 5 end */
+
+/* Section 6 Start */
+.img_block{
+    height: 130px;
+    width: 130px;
+    background:#181A1B;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    gap: 10px;
+   
+    
+  }
+  .sec_6_text{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    background: transparent;
+  }
+  
+  .sec_6_para p{
+    font-family: "Poppins";
+    color: #ffff;
+    background: transparent;
+    
+  }
+  .img1_6{
+    margin-top: -25px;
+    /* position: relative; */
+  }
 
