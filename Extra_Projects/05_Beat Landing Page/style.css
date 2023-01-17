@@ -165,3 +165,53 @@ span{
     border-radius: 5px;
     background: #353536;
 }
+/* section 4 end */
+
+/* section 5 start */
+.sec_5_main{
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sec_5_container{
+    height:280px;
+    width: 800px;
+    display: flex;
+    justify-content: center;
+   border-radius: 12px;
+    background: #181A1B;
+    align-items: center;
+}
+.sec_5_left{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background: #181A1B;
+}
+.sec_5_left h1{
+    background: #181A1B;
+    color: #ffff;
+    font-size: 23px;
+    font-family: "Poppins";
+    max-width: 250px;
+}
+.sec_5_left p{
+    background: #181A1B;
+    color: #535354;
+    font-size: 16px;
+    font-family: "Poppins";
+}
+.btn_5{
+    
+    padding: 8px 18px;display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    color: #ffff;
+    font-size: 13px;
+    border: none;
+    border-radius: 5px;
+    background: #000000;
+}
+
