@@ -234,17 +234,31 @@ span{
     display: flex;
     align-items: center;
     gap: 40px;
-    background: transparent;
+    background: #181A1B;
   }
   
   .sec_6_para p{
     font-family: "Poppins";
     color: #ffff;
-    background: transparent;
+    background: #181A1B;
     
   }
   .img1_6{
     margin-top: -25px;
-    /* position: relative; */
   }
 
+.sec_6_container{
+    display: grid;
+    grid-template-columns: 40% 40% 40%;
+    row-gap: 40px;
+    height: 250px;
+}
+.sec_6_main{
+    display: flex;
+    height: 600px;
+    align-items: center;
+    justify-content: center;
+    /* border: 3px solid blue; */
+    flex-direction: column;
+    gap: 20px;
+}
