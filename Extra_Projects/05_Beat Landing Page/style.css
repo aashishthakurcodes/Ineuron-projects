@@ -262,3 +262,43 @@ span{
     flex-direction: column;
     gap: 20px;
 }
+/* Section 6 completed */
+
+
+/* Section 7 start */
+.sec_7_mail{
+    width: 250px;
+    /* height: 40px; */
+    background: transparent;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 3px solid yellow;
+    background: #535252;
+    
+  }
+  .sec_7_container{
+    display: flex;
+  }
+  .sec_7_ul{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    font-family: "Poppins";
+  }
+
+  .sec_7_container{
+    display: flex;
+    justify-content: space-around;
+    height: 200px;
+    border: 2px solid red;
+    margin: auto;
+    max-width: 1100px;
+  }
+  .sec_07_main{
+height: 400px;
+border: 3px solid blueviolet;
+margin: auto;
+max-width: 1100px;
+  }
+
