@@ -268,13 +268,14 @@ span{
 /* Section 7 start */
 .sec_7_mail{
     width: 250px;
-    /* height: 40px; */
-    background: transparent;
+    height: 40px;
+    /* background: transparent; */
     display: flex;
     justify-content: space-around;
     align-items: center;
     border: 3px solid yellow;
-    background: #535252;
+    background: #181A1B;
+    border-radius: 10px;
     
   }
   .sec_7_container{
@@ -285,6 +286,7 @@ span{
     flex-direction: column;
     gap: 8px;
     font-family: "Poppins";
+    align-items: flex-start;
   }
 
   .sec_7_container{
@@ -295,10 +297,25 @@ span{
     margin: auto;
     max-width: 1100px;
   }
+  .sec_7_sub{
+    height: 30px;
+    width: 100px;
+    /* border: 2px solid red; */
+    display: flex;
+   justify-content: space-around;
+    align-items: center;
+    border-radius: 5px;
+    color: #ffff;
+    font-family: "Poppins";
+    font-size: 12px;
+    margin: 2px 1px;
+  }
+
   .sec_07_main{
-height: 400px;
-border: 3px solid blueviolet;
+height: 300px;
+/* border: 3px solid blueviolet; */
 margin: auto;
 max-width: 1100px;
+padding: 50px 20px;
   }
 
