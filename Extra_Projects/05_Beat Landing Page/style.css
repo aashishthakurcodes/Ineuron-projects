@@ -273,7 +273,7 @@ span{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    border: 3px solid yellow;
+    /* border: 3px solid yellow; */
     background: #181A1B;
     border-radius: 10px;
     
@@ -293,7 +293,7 @@ span{
     display: flex;
     justify-content: space-around;
     height: 200px;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     margin: auto;
     max-width: 1100px;
   }
@@ -312,10 +312,52 @@ span{
   }
 
   .sec_07_main{
-height: 300px;
+height: 220px;
 /* border: 3px solid blueviolet; */
 margin: auto;
 max-width: 1100px;
 padding: 50px 20px;
   }
+  .sec_7_logo{
+    /* border: 3px solid white; */
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px 5px;
+  }
+.uparrow{
+    /* border: 2px solid purple; */
+    display: flex;
+    align-items: flex-end;
+}
+.twiter{
+    display: flex;
+    align-items: center;
 
+}
+
+ /* Section 7 end */
+
+ @media screen and (max-width:600px) {
+    .logo2{
+        display: none;
+    }
+    .sec_2_main{
+        gap: 10px;
+        border: 3px solid yellow;
+    }
+    .sec_2_img{
+        border:2px solid blue;
+        
+    }
+    .img2{
+        width: 18%;
+    }
+   .sec_3_container{
+    display: flex;
+    flex-direction: column;
+   }
+   .sec_3_main{
+margin-top: 10%;
+   }
+ }
