@@ -336,28 +336,4 @@ padding: 50px 20px;
 
 }
 
- /* Section 7 end */
-
- @media screen and (max-width:600px) {
-    .logo2{
-        display: none;
-    }
-    .sec_2_main{
-        gap: 10px;
-        border: 3px solid yellow;
-    }
-    .sec_2_img{
-        border:2px solid blue;
-        
-    }
-    .img2{
-        width: 18%;
-    }
-   .sec_3_container{
-    display: flex;
-    flex-direction: column;
-   }
-   .sec_3_main{
-margin-top: 10%;
-   }
- }
+ /* Section 7 end?
